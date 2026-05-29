@@ -38,9 +38,7 @@ tests:
 about:
   summary: A framework for proteomics data analysis.
   license: Apache-2.0 AND SL
-  license_file:
-    - LICENSE
-    - NOTICE
+  license_file: LICENSE
   homepage: http://pyteomics.readthedocs.io
 
 extra:
