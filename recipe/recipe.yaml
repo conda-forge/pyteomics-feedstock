@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyteomics
-  version: "5.0"
+  version: "5.0.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyteomics-${{ version }}.tar.gz
-  sha256: 234a4d361d1a144247caa6b5fc35836eb3a40153bcd6f575c5b95c3bd49de21d
+  sha256: 89670f1512caa7fce5a269f3dc8d5b3856ef02f161fd2abc77155adb0bbe4a48
 
 build:
   number: 0
